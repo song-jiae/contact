@@ -1,0 +1,43 @@
+.title{text-align: center; font-size: 1.5rem; margin: 1rem 0; font-weight: 700;}
+.content{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(94, 94, 94, 0.341);
+  gap: 20px;
+  border-radius: 10px;
+}
+.ContactForm{
+  background-color: rgb(211, 211, 211);
+  
+}
+.ContactForm, .ContactList{
+  flex-grow: 1;
+  padding: 2rem;
+}
+.ContactItem{
+  border: 1px solid #e1e1e1;
+  display: flex;
+  align-items: center;
+}
+button{
+  padding:  0.2rem 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  background-color: #000;
+  color:#fff;
+  border-radius: 3px;
+}
+h2{
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+  color: #2d2d2d;
+}
+.SearchBox form{
+  display: flex;
+  align-items: center;
+}
+#phoneNumeber{}
+.Search{font-size: 10px;}
